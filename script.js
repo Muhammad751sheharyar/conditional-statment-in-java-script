@@ -15,9 +15,9 @@ alert("Number checker grater than or  less than")
 var firstNum=prompt("Enter the first number");
 var secondNum=prompt("Enter the Second number");
 if(firstNum > secondNum){
-    alert(firstNum);
+    alert(firstNum+"is grater than"+secondNum);
 }else if(secondNum > firstNum){
-     alert(secondNum);
+     alert(secondNum+"is grater than"+firstNum);
 }else{
     alert("pleace enter the number");
 }

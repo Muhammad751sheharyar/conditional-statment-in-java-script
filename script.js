@@ -52,18 +52,21 @@ if (num %5==0){
 
 
 //   Q:6 need to check uservalue what is the reminder by divided by 2
+alert("Enter the divided by 2 and reminder  ")
 var num=prompt("enter the num");
 var num1=num%2;
 alert(num1);
 
 
 //  Q:7 need to check uservalue what is the reminder by divided by 3
+alert("Enter the divided by 3 and reminder  ")
 var num =prompt("enter the number");
 var num3= num % 3;
 alert(num3);
 
 
 //  Q:8 need to check uservalue what is the reminder by divided by 5
+alert("Enter the divided by 5 and reminder  ")
 var num =prompt("enter the number");
 var num5= num % 5;
 alert(num5);

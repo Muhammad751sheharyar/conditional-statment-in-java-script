@@ -1,9 +1,12 @@
 //     Q:1 need to check weather user insert a big value than the 100 or less .
 alert("Enter a big value than the 100 or less");
 var num=prompt("Enter the num ");
-if( num >=100 ){
-    alert(num+"number is grater  than 100");
-}else if(num < 100){
+if( num >100 ){
+    alert(num+"Number is grater  than 100");
+}else if(num == 100){
+    alert(num+"Number is than equal to 100")
+}
+else if(num < 100){
     alert(num+"number is less than 100");
 }else{
 document.write("num is not define")
